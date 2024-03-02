@@ -1,1 +1,37 @@
-ECHO is on.
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://i.imgur.com/wFSs1gU.png");
+  background-color: #fed7f9;
+}
+
+#wrap {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://i.imgur.com/wFSs1gU.png");
+}
+
+#container {
+  display: grid;
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 12px 12px 24px #d8b7d4, -12px -12px 24px #fff7ff;
+  border-radius: 64px;
+  padding: 3em;
+  background-color: #fed7f9;
+}
+
+#time {
+  text-align: center;
+  white-space: pre-wrap;
+  font-size: 5em;
+  font-family: "Petit Formal Script", cursive;
+  color: rgb(219, 104, 219);
+}
